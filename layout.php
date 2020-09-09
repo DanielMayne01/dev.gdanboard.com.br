@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GDan Board</title>
-    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/estilo.css?timestamp=<?= strtotime('now') ?>">
 </head>
 <body>
     <header >
@@ -14,6 +14,10 @@
         <div id="log">
             <h3>Login</h3>
             <h4>Menu</h4>
+        </div>
+        <div id="cadastro">
+            <h3>Cadastro</h3>
+            <h4>Suporte</h4>
         </div>
     </header>
     <div id="rank">
