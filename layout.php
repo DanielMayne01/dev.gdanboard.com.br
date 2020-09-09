@@ -12,12 +12,12 @@
         <h2>Board</h2>
         
         <div id="log">
-            <h3>Login</h3>
-            <h4>Menu</h4>
+            <h3>#Login</h3>
+            <h4>#Menu</h4>
         </div>
         <div id="cadastro">
-            <h3>Cadastro</h3>
-            <h4>Suporte</h4>
+            <h3>#Cadastro</h3>
+            <h4>#Suporte</h4>
         </div>
     </header>
     <div id="rank">
