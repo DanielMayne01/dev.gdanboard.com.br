@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+<IfModule mod_rewrite.c>
+RewriteCond %{REQUEST_URI} !\.(appcache|atom|bbaw|bmp|crx|css|cur|eot|f4[abpv]|flv|geojson|gif|htc|ico|jpe?g|js|json(ld)?|m4[av]|manifest|map|mp4|oex|og[agv]|opus|otf|pdf|png|rdf|rss|safariextz|svgz?|swf|topojson|tt[cf]|txt|vcard|vcf|vtt|webapp|web[mp]|webmanifest|woff2?|xloc|xml|xpi)$
+RewriteRule . router.php [L]
+</IfModule>
