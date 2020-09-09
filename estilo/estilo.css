@@ -79,3 +79,20 @@ iframe{
     left: 90%;
     color: blue;
 }
+
+#rodape h4{
+    text-align: center;
+    position: relative;
+    margin-top: 492px; 
+    border-top: 3px solid black; 
+    padding-bottom: 1px;
+}
+
+#rodape h5{
+    text-align: center;
+    padding-top: 1px;
+}
+
+#rodape p{
+    text-align: center;
+}

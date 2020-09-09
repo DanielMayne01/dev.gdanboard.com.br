@@ -27,8 +27,10 @@
     <main>
         <?php include_once PAGE_FILE_PHP ?>
     </main>
-    <footer>
-        <!-- Criar algum rodapé aqui -->
+    <footer id="rodape">
+        <h4>Equipe</h4>
+        <h5><a href="#">GDan</a></h5>
+        <p><a href="#">Contato</a></p>
     </footer>
 </body>
 </html>
