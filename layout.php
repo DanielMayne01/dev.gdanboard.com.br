@@ -20,10 +20,15 @@
             <h4><a href="#">Suporte</a></h4>
         </div>
     </header>
-    <div id="rank">
+    <sidebar id="rank">
         <h1>Rank</h1>
         <p>1°Fabiano<br/> 2°Daniel<br/> 3°Lucas<br/> 4°Claudio<br/></p>
-    </div>
-    <?php include_once PAGE_FILE_PHP ?>
+    </sidebar>
+    <main>
+        <?php include_once PAGE_FILE_PHP ?>
+    </main>
+    <footer>
+        <!-- Criar algum rodapé aqui -->
+    </footer>
 </body>
 </html>
