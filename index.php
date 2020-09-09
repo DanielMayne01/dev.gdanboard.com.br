@@ -10,6 +10,11 @@
     <header >
         <h1>GDan</h1>
         <h2>Board</h2>
+        
+        <div id="log">
+            <h3>Login</h3>
+            <h4>Menu</h4>
+        </div>
     </header>
     <div id="rank">
         <h1>Rank</h1>
