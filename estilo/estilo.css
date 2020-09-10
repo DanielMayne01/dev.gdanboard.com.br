@@ -54,14 +54,6 @@ header h2{
     color: blue;
 }
 
-iframe{
-    position: absolute;
-    margin-top: 5px;
-    margin-bottom: 30px;
-    left: 377px;
-    border: solid black 3px;   
-}
-
 #cadastro h3{
     position: absolute;
     margin-top: -85px;
@@ -89,6 +81,14 @@ main {
     padding: -200px 2px;
     text-align: center;
 }  
+
+iframe{
+    position: absolute;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    left: 1px;
+    border: solid black 3px;   
+}
 
 #rodape h4{
     text-align: center;
