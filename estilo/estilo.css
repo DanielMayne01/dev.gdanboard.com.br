@@ -19,25 +19,6 @@ header h2{
     padding: 1pxpx;
 }
 
-#rank h1{
-    position: absolute;
-    left: 25px;
-    margin-top: 61px;
-    border: 3px solid black;
-    font-size: 100px;
-    width: 259px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#rank p {
-    position: absolute;
-    left: 25px;
-    margin-top: 184px ;
-    border: black solid 3px;
-    font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 #log h3{
     position: absolute;
     margin-top: -90px;
@@ -72,28 +53,50 @@ header h2{
     color: blue;
 }
 
+#rank h1{
+    position: absolute;
+    left: 25px;
+    margin-top: 61px;
+    border: 3px solid black;
+    font-size: 100px;
+    width: 259px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#rank p {
+    position: absolute;
+    left: 25px;
+    margin-top: 184px ;
+    border: black solid 3px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
 main {
     position: absolute;
     left: 290px;
     width: 1050px;
     height: 470px;
-    padding: -200px 2px;
     text-align: center;
+    
 }  
 
 iframe{
     position: absolute;
     margin-top: 5px;
-    margin-bottom: 30px;
-    left: 1px;
-    border: solid black 3px;   
+    margin-bottom: 0px;
+    left: 1px; 
+    border: solid black 3px;  
+}
+footer{
+    background-color: whitesmoke;
+    position: relative;
 }
 
 #rodape h4{
     text-align: center;
-    position: relative;
-    margin-top: 492px; 
-    border-top: 3px solid black; 
+    margin-top: 492px;  
     padding-bottom: 1px;
 }
 
