@@ -29,7 +29,7 @@
     </main>
     <footer id="rodape">
         <h4>Equipe</h4>
-        <h5><a href="#">gdan</a></h5>
+        <h5><a href="#">GDAN</a></h5>
         <p><a href="#">Contato</a></p>
     </footer>
 </body>
