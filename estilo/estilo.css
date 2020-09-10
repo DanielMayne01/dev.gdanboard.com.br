@@ -80,6 +80,16 @@ iframe{
     color: blue;
 }
 
+main {
+    position: absolute;
+    background-color: #00000052;
+    left: 290px;
+    width: 1050px;
+    height: 470px;
+    padding: -200px 2px;
+    text-align: center;
+}  
+
 #rodape h4{
     text-align: center;
     position: relative;
@@ -96,3 +106,4 @@ iframe{
 #rodape p{
     text-align: center;
 }
+  
