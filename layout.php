@@ -30,7 +30,7 @@
     <footer id="rodape">
         <h4>Equipe</h4>
         <h5><a href="#">Daniel mayne bento</a></h5>
-        <p><a href="#">lucas</a></p>
+        <p><a href="#">claudio</a></p>
     </footer>
 </body>
 </html>
