@@ -14,6 +14,7 @@
           <option value="4">Tema E</option>
         </select>
     </div>   
+    <input>
     <p><label>Número de jogadores (Máximo 4)</label></p>
     <input type="text" />   
 
