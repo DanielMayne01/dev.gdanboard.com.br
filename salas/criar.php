@@ -1,5 +1,5 @@
 <div class="criacao-sala">
-    <h1>CRIAR SALA</h1>
+    <h1>CRIAR SALA Testando Romes Git</h1>
     <div></div>
     <p><label>Nome da sala</label></p>
     <input type="text" />
@@ -13,8 +13,7 @@
           <option value="3">Tema D</option>
           <option value="4">Tema E</option>
         </select>
-    </div>   
-    <input>
+    </div>
     <p><label>Número de jogadores (Máximo 4)</label></p>
     <input type="text" />   
 
