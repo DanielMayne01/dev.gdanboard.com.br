@@ -90,7 +90,7 @@ iframe{
     border: solid black 3px;  
 }
 footer{
-    background-color: whitesmoke;
+    background-color: white;
     position: relative;
 }
 
@@ -98,6 +98,7 @@ footer{
     text-align: center;
     margin-top: 492px;  
     padding-bottom: 1px;
+    border-top: 2px solid black ;
 }
 
 #rodape h5{
