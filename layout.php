@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GDan Board</title>
-    <link rel="stylesheet" href="/estilo/estilo.css?timestamp=<?= strtotime('now') ?>">
+    <link rel="stylesheet" href="/css/font-awesome.min?timestamp=<?= strtotime('now') ?>">
+    <link rel="stylesheet" href="/css/bootstrap.min.css?timestamp=<?= strtotime('now') ?>">
+    <link rel="stylesheet" href="/css/estilo.css?timestamp=<?= strtotime('now') ?>">
 </head>
 <body>
     <header >
@@ -31,6 +33,11 @@
         <h4>Equipe</h4>
         <h5><a href="#">GDAN BOARD</a></h5>
         <p><a href="#">CONTATO</a></p>
+
+        <script type="text/javascript" src="/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="/js/popper.min.js"></script>
+        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     </footer>
 </body>
 </html>
