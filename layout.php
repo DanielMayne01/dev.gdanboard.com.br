@@ -20,7 +20,7 @@
                     <li><a href="#">Menu</a></li>
                     <li><a href="#">Login</a></li>
                     <li><a href="#">Inscreva-se</a></li>
-                    <li><a href="#">Suporte</a></li>
+                    <li><a href="suporte.php">Suporte</a></li>
                 </ul>
             </nav>
         </header>
