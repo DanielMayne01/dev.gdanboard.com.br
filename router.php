@@ -27,6 +27,4 @@ $page_file = $page_file ? $page_file : realpath("{$document_root}/404.php");
 ob_end_clean();
 
 define("PAGE_FILE_PHP", $page_file);
-define("PAGE_PATH_PHP", $request_uri);
-
 require_once "./layout.php";
