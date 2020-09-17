@@ -1,5 +1,5 @@
 body{
-    background: #7159c1;
+    background: white;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -11,10 +11,10 @@ body{
 }
 
 header{
-    background: red;
     text-align: center; 
     grid-column-start: 1;
     grid-column-end: 3;
+    border-bottom: solid 2px black;
 }
 
 #Menu-Principal  ul {
@@ -32,8 +32,7 @@ header{
 }
 
 .rank{
-    background: darkred;
-    width: 200px;
+    width: 220px;
     border: black 2px solid;
     text-align: center;
     grid-column-start: 1;
@@ -48,8 +47,8 @@ iframe{
 }
 
 main{
+    border: black 2px solid;
     text-align: center;
-    background: darkcyan;
     margin-left: 220px;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -59,7 +58,7 @@ main{
 }
 
 footer{
-    background: tomato;
+    border-top: 2px solid black;
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 3;
