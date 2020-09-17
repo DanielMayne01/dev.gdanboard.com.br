@@ -1,119 +1,72 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background: #7159c1;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-
-.criacao-sala {
-    background-color: rgb(0, 0, 0);
-    color:rgb(255, 255, 255);
-}
-
-header h1{
-    text-align: center;
-    color: black;
-    font-size: 100px;
-    margin-top: -30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-header h2{
-    text-align: center;
-    color: black;
-    font-size: 30px;
-    margin-top: -90px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 1pxpx;
-}
-
-#log h3{
-    position: absolute;
-    margin-top: -90px;
-    left: 300px;
-    font-size: 30px;
-    color: blue;
-}
-
-#log h4{
-    position: absolute;
-    margin-top: -90px;
-    left: 30px;
-    font-size: 30px;
-    color: blue;
-}
-
-#cadastro h3{
-    position: absolute;
-    margin-top: -85px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
-    left: 70%;
-    color: blue;
-}
-
-#cadastro h4{
-    position: absolute;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
-    margin-top: -85px;
-    left: 90%;
-    color: blue;
-}
-
-#rank h1{
-    position: absolute;
-    left: 25px;
-    margin-top: 61px;
-    border: 3px solid black;
-    font-size: 100px;
-    width: 259px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-#rank p {
-    position: absolute;
-    left: 25px;
-    margin-top: 184px ;
-    border: black solid 3px;
-    font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-
-main {
-    position: absolute;
-    left: 290px;
-    width: 1050px;
-    height: 470px;
-    text-align: center;
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     
-}  
+}
+
+header{
+    background: red;
+    text-align: center; 
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#Menu-Principal  ul {
+    list-style: none; /* Remoção bolinhas da lista de items */
+    margin: 0; /* Tira a magem e o padding padrões que vem de fabrica no ul */
+    padding: 0; /* Tira a magem e o padding padrões que vem de fabrica no ul */
+    text-align: center;
+}
+
+#Menu-Principal  ul  li {
+    display: inline-block; /* Faz com que os <li> apareçam lado a lado ao invez de um em baixo do outro */
+    padding-right: 135px; /* Da um espaço de 10 pixels entre os li*/
+    padding-left: 135px;
+    
+}
+
+.rank{
+    background: darkred;
+    width: 200px;
+    border: black 2px solid;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;   
+}
 
 iframe{
-    position: absolute;
-    margin-top: 5px;
-    margin-bottom: 0px;
-    left: 1px; 
-    border: solid black 3px;  
+    left: 220px;
+
 }
+
+main{
+    text-align: center;
+    background: darkcyan;
+    margin-left: 220px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+
 footer{
-    background-color: white;
-    position: relative;
+    background: tomato;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
 }
 
-#rodape h4{
-    text-align: center;
-    margin-top: 492px;  
-    padding-bottom: 1px;
-    border-top: 2px solid black ;
-}
-
-#rodape h5{
-    text-align: center;
-    padding-top: 1px;
-}
-
-#rodape p{
-    text-align: center;
-}
 
 .glow {
     font-size: 80px;

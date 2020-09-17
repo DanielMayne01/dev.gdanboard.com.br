@@ -9,35 +9,39 @@
     <link rel="stylesheet" href="/css/estilo.css?timestamp=<?= strtotime('now') ?>">
 </head>
 <body>
-    <header >
-        <h1>GDan</h1>
-        <h2>Board</h2>
-        
-        <div id="log">
-            <h3><a href="#">Login</a></h3>
-            <h4><a href="#">Menu</a></h4>
-        </div>
-        <div id="cadastro">
-            <h3><a href="#">Cadastro</a></h3>
-            <h4><a href="#">Suporte</a></h4>
-        </div>
-    </header>
-    <sidebar id="rank">
-        <h1>Rank</h1>
-        <p>1°Fabiano<br/> 2°Daniel<br/> 3°Lucas<br/> 4°Claudio<br/></p>
-    </sidebar>
-    <main>
-        <?php include_once PAGE_FILE_PHP ?>
-    </main>
-    <footer id="rodape">
-        <h4>Equipe</h4>
-        <h5><a href="#">GDAN BOARD</a></h5>
-        <p><a href="#">CONTATO</a></p>
-
-        <script type="text/javascript" src="/js/jquery.min.js"></script>
-        <script type="text/javascript" src="/js/jquery.slim.min.js"></script>
-        <script type="text/javascript" src="/js/popper.min.js"></script>
-        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-    </footer>
+    <div class="principal">
+        <header>
+            <div class="logo">
+                <h1>GDan</h1>
+                <h2>Board</h2>
+            </div>
+            <nav id="Menu-Principal">
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Inscreva-se</a></li>
+                    <li><a href="#">Suporte</a></li>
+                </ul>
+            </nav>
+        </header>
+        <sidebar class="rank">
+            <h1>Rank</h1>
+            <p>1°Fabiano<br/> 2°Daniel<br/> 3°Lucas<br/> 4°Claudio<br/></p>
+        </sidebar>
+            <main>
+                <?php include_once PAGE_FILE_PHP ?>
+            </main>
+        <footer>
+            <nav class="rodape">
+                <h4>Equipe</h4>
+                <h4><a href="#">GDAN BOARD</a></h4>
+                <p><a href="#">CONTATO</a></p>
+            </nav>
+            <script type="text/javascript" src="/js/jquery.min.js"></script>
+            <script type="text/javascript" src="/js/jquery.slim.min.js"></script>
+            <script type="text/javascript" src="/js/popper.min.js"></script>
+            <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+        </footer>
+    </div>   
 </body>
 </html>
