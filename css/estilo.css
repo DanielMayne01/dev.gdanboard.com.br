@@ -5,16 +5,17 @@ body{
     box-sizing: border-box;
 }
 .principal{
+    background: white;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    
+    grid-template-columns: 20% 80%; 
+    grid-template-rows: 18vh 68vh;
+
 }
 
 header{
     text-align: center; 
-    grid-column-start: 1;
-    grid-column-end: 3;
     border-bottom: solid 2px black;
+    grid-column: 1/4;
 }
 
 .logo{
@@ -50,13 +51,9 @@ header{
 }
 
 .rank{
-    width: 220px;
     border: black 2px solid;
     text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;   
+   
 }
 
 .rank h1{
@@ -64,36 +61,22 @@ header{
     border-bottom: solid 2px black;
     font-family: sans-serif;
 }
+
 .rank p{
     font-family: sans-serif;
-    margin-top: 20px;
-    padding-top: 15px;
-}
-
-iframe{
-    left: 220px;
-
 }
 
 main{
+    overflow: auto;
     border: black 2px solid;
-    text-align: center;
-    margin-left: 220px;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    
+    text-align: center;  
 }
 
-footer{
-    border-top: 2px solid black;
+footer {
+    border: 2px solid black;
     text-align: center;
-    text-align: center; 
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column: 1/4; 
 }
-
 
 .glow {
     font-size: 80px;

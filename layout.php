@@ -26,7 +26,7 @@
         </header>
         <sidebar class="rank">
             <h1>Rank</h1>
-            <p>1°Fabiano<br/> 2°Daniel<br/> 3°Lucas<br/> 4°Claudio<br/></p>
+            <p>1°Fabiano<br/> 2°Daniel<br/> 3°Lucas<br/> 4°Claudio<br/> 5°Rolmes</p>
         </sidebar>
             <main>
                 <?php include_once PAGE_FILE_PHP ?>
