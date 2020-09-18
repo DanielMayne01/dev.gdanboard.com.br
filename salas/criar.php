@@ -1,5 +1,5 @@
 <div class="criacao-sala">
-    <h1>CRIAR SALA Testando Romes Git</h1>
+    <h1> SALA </h1>
     <div></div>
     <p><label>Nome da sala</label></p>
     <input type="text" />

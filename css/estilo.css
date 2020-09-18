@@ -17,6 +17,23 @@ header{
     border-bottom: solid 2px black;
 }
 
+.logo{
+    font-family: sans-serif;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.logo h1{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.logo h2{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+
 #Menu-Principal  ul {
     list-style: none; /* Remoção bolinhas da lista de items */
     margin: 0; /* Tira a magem e o padding padrões que vem de fabrica no ul */
@@ -25,6 +42,7 @@ header{
 }
 
 #Menu-Principal  ul  li {
+    font-family: sans-serif;
     display: inline-block; /* Faz com que os <li> apareçam lado a lado ao invez de um em baixo do outro */
     padding-right: 135px; /* Da um espaço de 10 pixels entre os li*/
     padding-left: 135px;
@@ -38,7 +56,18 @@ header{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end: 4;   
+    grid-row-end: 3;   
+}
+
+.rank h1{
+    padding: 10px;
+    border-bottom: solid 2px black;
+    font-family: sans-serif;
+}
+.rank p{
+    font-family: sans-serif;
+    margin-top: 20px;
+    padding-top: 15px;
 }
 
 iframe{
@@ -60,10 +89,9 @@ main{
 footer{
     border-top: 2px solid black;
     text-align: center;
+    text-align: center; 
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 5;
 }
 
 
